@@ -1,2 +1,12 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__logo/header__logo.css);
+@import url(./__lang-link/_en/header__lang-link_en.css);
+@import url(./__lang-link/_ru/header__lang-link_ru.css);
+
+.header {
+    padding: 28px 48px 0 48px;
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    width: 1184px;
+}

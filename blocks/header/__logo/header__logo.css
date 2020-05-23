@@ -4,3 +4,11 @@
     height: 52px;
     width: 176px;
 }
+
+@media only screen and (max-width: 330px) {
+    .header__logo {
+        height: 42px;
+        width: 142px;
+        background-size: cover;
+    }
+}

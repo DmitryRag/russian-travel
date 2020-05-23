@@ -8,7 +8,18 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
-    text-align: left;
-    width: 159px;
-    margin-left: 148px;
+    max-width: 159px;
+}
+
+@media only screen and (max-width: 770px) {
+    .lead__caption {
+        padding-left: 24px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .lead__caption {
+        padding-left: 14px;
+    }
 }

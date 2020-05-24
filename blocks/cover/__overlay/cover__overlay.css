@@ -1,0 +1,7 @@
+
+.cover__overlay {
+    max-width: 1184px;
+    background: rgba(42, 44, 47, 0.3);
+    min-height: 740px;
+    margin: 0 auto;
+}

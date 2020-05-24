@@ -3,19 +3,19 @@
 @import url(./__title/intro__title.css);
 
 .intro {
+    max-width: 984px;
+    margin: 0 auto;
     padding: 92px 0 92px;
 }
 
 @media only screen and (max-width: 770px) {
     .intro {
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 88px 24px 88px 24px;
     }
 }
 
 @media only screen and (max-width: 330px) {
-    .header {
-        padding: 16px 16px 0px 16px;
-        max-height: 42px;
+    .intro {
+        padding: 0 16px 64px 16px;
     }
 }

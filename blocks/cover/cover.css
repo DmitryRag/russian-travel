@@ -3,9 +3,27 @@
 @import url(./__title/cover__title.css);
 
 .cover {
-    margin: 92px auto;
-    background-image: url(../../../images/cover-trains.jpg);
-    background-size: cover;
+    margin: 92px 48px;
+    background: url(../../images/cover-trains.jpg);
     background-position: center;
-    max-width: 1184px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1030px) {
+    .cover {
+        margin: 92px 0 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cover {
+        margin: 60px 0 0;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .cover {
+        margin: 60px 0 0;
+    }
 }

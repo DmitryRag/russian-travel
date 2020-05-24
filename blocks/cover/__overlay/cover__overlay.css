@@ -1,7 +1,29 @@
 
-.cover__overlay {
-    max-width: 1184px;
-    background: rgba(42, 44, 47, 0.3);
-    min-height: 740px;
-    margin: 0 auto;
+.cover__overlay{
+    background:rgba(42, 44, 47, 0.3);
+    background-position: center;
+    min-height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cover__overlay:hover{
+    background:rgba(42,44,47,0.8);
+    min-height: 200px;
+}
+
+@media only screen and (max-width: 500px) {
+    .cover__overlay {
+    min-height: 360px;
+    }
+}
+
+
+@media only screen and (max-width: 330px) {
+    .cover__overlay {
+    min-height: 200px;
+    }
 }

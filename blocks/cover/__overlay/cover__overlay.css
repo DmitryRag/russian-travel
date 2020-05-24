@@ -12,12 +12,26 @@
 
 .cover__overlay:hover{
     background:rgba(42,44,47,0.8);
-    min-height: 200px;
+    min-height: 640px;
+}
+
+@media only screen and (max-width: 770px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+    .cover__overlay:hover{
+        background:rgba(42,44,47,0.8);
+        min-height: 480px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .cover__overlay {
-    min-height: 360px;
+        min-height: 300px;
+    }
+    .cover__overlay:hover{
+        background:rgba(42,44,47,0.8);
+        min-height: 300px;
     }
 }
 
@@ -25,5 +39,9 @@
 @media only screen and (max-width: 330px) {
     .cover__overlay {
     min-height: 200px;
+    }
+    .cover__overlay:hover{
+        background:rgba(42,44,47,0.8);
+        min-height: 200px;
     }
 }

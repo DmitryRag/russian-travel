@@ -4,6 +4,7 @@ ____
 
 [![N|Solid](https://pictures.s3.yandex.net/animation_topic/logo.svg)](https://praktikum.yandex.ru/)
 
+Ссылка на проект(https://dmitryrag.github.io/russian-travel/)
 
 Третий самостоятельный проект. В этой работе я применил следующие знания по темам :
 
@@ -13,6 +14,7 @@ ____
   - Подключение внешних данных в т.ч. API
   - Grid-вёрстка
   - Организация файлов по БЭМ
+---
 
 ### Используемые технологии
 
@@ -20,6 +22,7 @@ ____
 * [HTML]
 * [CSS]
 * [GRID-LAYOUT]
+---
 
 ### Планы на доработку
 

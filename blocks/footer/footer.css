@@ -27,18 +27,30 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     .footer {
+        justify-content: center;
         flex-direction: column;
-        margin-top: 64px;
-        margin-left: 16px;
+        max-height: 100px;
+        align-items: center;
     }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 500px) {
     .footer {
-        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-height: 600px;
+        margin-left: 24px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .footer {
+        justify-content: space-between;
+        align-items: flex-start;
         margin-top: 64px;
         margin-left: 16px;
+        max-height: 500px;
     }
 }

@@ -2,3 +2,12 @@
 .footer__link-item {
     margin-right: 18px;
 }
+
+@media only screen and (max-width: 360px) {
+    .footer__link-item {
+        margin-bottom: 32px;
+    }
+    .footer__link-item:last-of-type {
+        margin-bottom: 0;
+    }
+}

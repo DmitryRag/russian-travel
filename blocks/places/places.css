@@ -1,8 +1,14 @@
 
 .places {
-    padding-top: 92px;
+    padding: 92px 148px 0 148px;
     max-width: 984px;
     margin: 0 auto; 
+}
+
+@media only screen and (max-width: 1030px) {
+    .places {
+        padding: 92px 48px 0 48px;
+    }
 }
 
 @media only screen and (max-width: 770px) {

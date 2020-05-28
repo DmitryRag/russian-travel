@@ -23,6 +23,7 @@
 @media only screen and (max-width: 1030px) {
     .place {
         grid-gap: 32px;
+        grid-template-columns: minmax(440px 456px);
     }
 }
 

@@ -3,11 +3,13 @@
 @import url(./__title/cover__title.css);
 
 .cover {
-    margin: 92px 48px;
-    background: url(../../images/cover-trains.jpg);
+    margin: 92px auto 0 ;
+    background: url(../../images/123.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 1184px;
+
 }
 
 @media only screen and (max-width: 1030px) {

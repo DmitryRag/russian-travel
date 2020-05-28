@@ -10,9 +10,29 @@
     text-align: center;
 }
 
+@media (max-width: 770px) {
+    .lead__subtitle {
+        font-size: calc(4vw);
+        line-height: normal;
+        max-width: 80%;
+    }
+}
+
+
+/*
+
 @media only screen and (max-width: 1030px) {
     .lead__subtitle {
         margin-bottom: 56px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .lead__subtitle {
+        font-size: 24px;
+        line-height: 25px;
+        margin: 16px 16px 40px 16px;
+        min-height: 40px;
     }
 }
 

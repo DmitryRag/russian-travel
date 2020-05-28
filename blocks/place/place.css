@@ -8,8 +8,10 @@
 
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 48px;
+    grid-template-columns: minmax(320px, 460px) minmax(200px, 484px);
+    /* grid-template-columns: repeat(auto-fit, minmax(288px,460));*/
+    grid-row-gap: 48px;
+    grid-column-gap: 40px;
     max-width: 984px;
     padding-bottom: 80px;
 }
@@ -24,6 +26,8 @@
     }
 }
 
+
+
 @media only screen and (max-width: 770) {
     .place {
         grid-gap: 28px;
@@ -31,17 +35,16 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .place {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 24px;
-        padding-bottom: 48px;
+        grid-template-columns: 1fr;
+        
     }
 }
 
-@media only screen and (max-width: 330px) {
+
+@media only screen and (max-width: 650px) {
     .place {
-        grid-template-columns: repeat(1, 1fr);
         grid-gap: 24px;
         padding-bottom: 48px;
     }

@@ -1,0 +1,14 @@
+
+.header__lang-list {
+    display: flex;
+    align-self: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 6px 0;
+} 
+
+@media only screen and (max-width: 330px) {
+    .header__lang-list {
+        margin-bottom: 3px;
+    }
+}

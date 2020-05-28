@@ -4,7 +4,7 @@
 
 .cover {
     margin: 92px auto 0 ;
-    background: url(../../images/123.jpeg);
+    background: url(../../images/cover-trains.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,12 +25,6 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .cover {
-        margin: 60px 0 0;
-    }
-}
-
-@media only screen and (max-width: 330px) {
     .cover {
         margin: 60px 0 0;
     }

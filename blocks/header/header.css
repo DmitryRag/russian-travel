@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1184px;
+    min-height: 52px;
     padding: 28px 48px 0 48px;
     margin: 0 auto 56px;
 }

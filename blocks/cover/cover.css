@@ -9,7 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1184px;
-
+    text-align: center;
 }
 
 @media only screen and (max-width: 1030px) {

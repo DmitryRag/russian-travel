@@ -2,17 +2,4 @@
 .photo-grid__item {
     max-width: 100%;
     width: 100%;
-    min-height: 213px; 
-}
-
-@media only screen and (max-width: 1030px) {
-    .photo-grid__item {
-        min-height: 225px;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    .photo-grid__item {
-        min-height: 264px;
-    }
 }
